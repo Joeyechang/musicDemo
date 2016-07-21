@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  TT音乐播放器
+//
+//  Created by chang on 14/12/31.
+//  Copyright (c) 2014年 chang. All rights reserved.
+//
+
+#ifndef ________PrefixHeader_pch
+#define ________PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#ifdef __OBJC__
+#import "CZMusicModel.h"
+#import "CZLyricModel.h"
+#import "CZMusicTool.h"
+#import "CZLyricTool.h"
+#endif
+#endif
